@@ -1,0 +1,123 @@
+.findClothesThat {
+  margin: 0;
+  align-self: stretch;
+  height: 173px;
+  position: relative;
+  font-size: var(--font-size-45xl);
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.browseThroughOur,
+.shopNow {
+  position: relative;
+  display: inline-block;
+}
+.browseThroughOur {
+  width: 546px;
+  height: 33px;
+  line-height: 22px;
+  font-family: var(--font-open-sans);
+  color: var(--color-gray-600);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.shopNow {
+  font-weight: 500;
+  min-width: 76px;
+}
+.shopNowWrapper {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-48xl);
+  z-index: 1;
+  color: var(--color-white);
+}
+.findClothesThatMatchesYourParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.findClothesThatMatchesYourParent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.frameWrapper {
+  width: 577px;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin: 0 !important;
+  right: 553px;
+  bottom: 72px;
+  z-index: 1;
+}
+.vectorIcon1 {
+  height: 104px;
+  width: 104px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent,
+.homepageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1259px;
+  justify-content: space-between;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.homepageInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-195xl) var(--padding-20xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 750px) {
+  .findClothesThat {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .findClothesThatMatchesYourParent {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .homepageInner {
+    padding-bottom: var(--padding-120xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findClothesThat {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+}

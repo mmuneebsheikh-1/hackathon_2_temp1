@@ -1,0 +1,336 @@
+.inputBoxIcon,
+.stayUptoDate {
+  position: relative;
+  flex-shrink: 0;
+}
+.stayUptoDate {
+  margin: 0;
+  width: 552px;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.inputBoxIcon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+}
+.enterYourEmail {
+  flex: 1;
+  position: relative;
+}
+.emailInput {
+  align-self: stretch;
+  border-radius: var(--br-43xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-104xl) var(--padding-xs)
+    var(--padding-base);
+  gap: var(--gap-xs);
+}
+.subscribeToNewsletter {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.subscriptionButton {
+  align-self: stretch;
+  border-radius: var(--br-43xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-69xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 349px;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-open-sans);
+}
+.newsletterSignup,
+.subscriptionForm {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subscriptionForm {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-17xl) var(--padding-45xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.newsletterSignup {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-81xl);
+}
+.footerChild {
+  width: 1441px;
+  height: 499px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.shopco {
+  width: 168px;
+  height: 23px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.weHaveClothes {
+  position: relative;
+  line-height: 22px;
+}
+.socialIcons {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.brandDescription,
+.companyInfo,
+.socialMedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMedia {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.brandDescription,
+.companyInfo {
+  flex-direction: column;
+}
+.brandDescription {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+.companyInfo {
+  width: 248px;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-14xl-5);
+}
+.helpMenu1 {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about {
+  white-space: pre-wrap;
+}
+.about,
+.blankLine {
+  margin: 0;
+}
+.aboutFeaturesWorksContainer {
+  position: relative;
+  line-height: 19px;
+  font-family: var(--font-open-sans);
+  color: var(--color-gray-600);
+}
+.helpMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.aboutFeaturesWorksContainer2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 19px;
+  font-family: var(--font-open-sans);
+  color: var(--color-gray-600);
+}
+.footerContent,
+.helpMenu4 {
+  display: flex;
+  align-items: flex-start;
+}
+.helpMenu4 {
+  width: 149px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameChild {
+  height: 1px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+}
+.allRightsReserved,
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.copyright {
+  width: 269px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.badgeIcon {
+  height: 30px;
+  width: 46.6px;
+  position: relative;
+  border-radius: var(--br-7xs-4);
+  z-index: 1;
+}
+.copyrightParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer,
+.lineParent,
+.newsletterSignupParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineParent {
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+.footer,
+.newsletterSignupParent {
+  max-width: 100%;
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+.footer {
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-121xl) var(--padding-80xl) var(--padding-63xl)
+    var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  margin-top: -90px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.newsletterSignupParent {
+  flex-shrink: 0;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+@media screen and (max-width: 1250px) {
+  .inputFields {
+    flex: 1;
+  }
+  .subscriptionForm {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .subscriptionForm {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .footerContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stayUptoDate {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .inputFields {
+    min-width: 100%;
+  }
+  .newsletterSignup {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .shopco {
+    font-size: var(--font-size-8xl);
+  }
+  .copyrightParent {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-6xl);
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-30xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stayUptoDate {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .emailInput,
+  .newsletterSignup,
+  .subscriptionButton {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .newsletterSignup,
+  .subscriptionButton {
+    padding-left: var(--padding-xl);
+  }
+  .shopco {
+    font-size: var(--font-size-xl);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

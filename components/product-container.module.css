@@ -1,0 +1,333 @@
+.cardImageIcon {
+  width: 295px;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ertical {
+  text-transform: lowercase;
+}
+.verticalStripedShirtContainer {
+  align-self: stretch;
+  position: relative;
+}
+.productRatingIcon {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+}
+.span {
+  color: var(--color-gray-600);
+}
+.reviewPlaceholder {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+}
+.starsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.infoDetails,
+.moreProductsContainer {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 54px;
+}
+.moreProductsContainer {
+  text-decoration: line-through;
+  color: var(--color-gray-400);
+  min-width: 57px;
+}
+.productImage {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 32px;
+}
+.productLink {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-tomato-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-smi);
+}
+.additionalInfo,
+.moreProducts,
+.productLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreProducts {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-tomato-100);
+}
+.additionalInfo {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.ratingContainer {
+  flex: 1;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-open-sans);
+}
+.cardContent,
+.cardDescription,
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardDescription {
+  width: 194px;
+  height: 94px;
+  gap: var(--gap-5xs);
+}
+.cardContent {
+  gap: var(--gap-base);
+}
+.spacing {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  min-width: 55px;
+}
+.courageGraphicTShirtParent {
+  width: 226px;
+  height: 94px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.courageGraphicTShirtParent,
+.productVisualsParent,
+.starParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productVisualsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 192px;
+}
+.starParent {
+  flex-direction: row;
+  gap: var(--gap-7xs-3);
+  flex-shrink: 0;
+}
+.b,
+.div {
+  position: relative;
+}
+.div {
+  display: inline-block;
+  min-width: 35px;
+  flex-shrink: 0;
+}
+.b {
+  width: 48px;
+  flex: 1;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+}
+.looseFitBermudaShortsParent,
+.secondCardContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.looseFitBermudaShortsParent {
+  width: 239px;
+  height: 94px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.secondCardContent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.viewAll {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+}
+.viewMore {
+  height: 52px;
+  flex: 1;
+  border-radius: var(--br-43xl);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-58xl) var(--padding-smi)
+    var(--padding-61xl);
+}
+.secondProductAction,
+.secondProductCard,
+.viewMore {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondProductAction {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-177xl);
+  font-size: var(--font-size-base);
+}
+.secondProductCard {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-17xl);
+  min-width: 396px;
+  max-width: 100%;
+}
+.image10Icon {
+  position: absolute;
+  top: -40px;
+  left: 22px;
+  width: 252px;
+  height: 378px;
+  object-fit: cover;
+}
+.image10Wrapper {
+  align-self: stretch;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameChild5 {
+  height: 16.7px;
+  width: 8.8px;
+}
+.b1,
+.div1,
+.frameChild5 {
+  position: relative;
+}
+.div1 {
+  display: inline-block;
+  min-width: 34px;
+}
+.b1 {
+  flex: 1;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  min-width: 56px;
+}
+.cardContent1,
+.fadedSkinnyJeansParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fadedSkinnyJeansParent {
+  width: 185px;
+  height: 94px;
+  gap: var(--gap-5xs);
+}
+.cardContent1 {
+  width: 295px;
+  gap: var(--gap-base);
+}
+.productCard,
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.productCard {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-xl);
+}
+.productContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 750px) {
+  .secondCardContent {
+    flex-wrap: wrap;
+  }
+  .secondProductAction {
+    padding-left: var(--padding-79xl);
+    padding-right: var(--padding-79xl);
+    box-sizing: border-box;
+  }
+  .secondProductCard {
+    gap: var(--gap-lg);
+    min-width: 100%;
+  }
+  .productContainer {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .verticalStripedShirtContainer {
+    font-size: var(--font-size-base);
+  }
+  .b,
+  .infoDetails,
+  .moreProductsContainer,
+  .placeholder {
+    font-size: var(--font-size-lgi);
+  }
+  .secondProductAction {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .b1 {
+    font-size: var(--font-size-lgi);
+  }
+}

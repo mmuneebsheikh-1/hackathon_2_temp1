@@ -1,0 +1,1203 @@
+.topDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.homeWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.frameIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.homeLinkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-5xs) 0 0;
+}
+.casual {
+  flex: 1;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 49px;
+}
+.homeLinkParent {
+  width: 123px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.filters {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.frameIcon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.filtersParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.filtersParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.filterHeaders {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 247px;
+  height: 1px;
+}
+.frameContainer {
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+}
+.tShirts {
+  position: relative;
+  display: inline-block;
+  min-width: 53px;
+}
+.categoryFilterLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+.emptyCategoryIcons {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.categoryFilterLabelsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hoodie,
+.jeans,
+.shirts,
+.shorts {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+}
+.hoodie,
+.jeans,
+.shirts {
+  min-width: 40px;
+}
+.hoodie,
+.jeans {
+  min-width: 52px;
+}
+.jeans {
+  min-width: 42px;
+}
+.jeansFilterChild {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 247px;
+  height: 1px;
+}
+.jeansFilter {
+  align-self: stretch;
+  height: 41px;
+  position: relative;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+.price {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 49px;
+}
+.frameFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.div1 {
+  text-align: center;
+  min-width: 37px;
+}
+.parent {
+  position: absolute;
+  top: 71px;
+  left: 37px;
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+}
+.priceFilterChild,
+.priceFilterItem {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 247px;
+  height: 20px;
+}
+.priceFilterItem {
+  top: 114px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  height: 1px;
+}
+.priceFilter {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+}
+.colors {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 63px;
+}
+.frameChild {
+  height: 37px;
+  width: 37px;
+  position: relative;
+}
+.colorSwatches,
+.colorSwatches1 {
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.colorSwatches {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-red);
+}
+.colorSwatches1 {
+  background-color: var(--color-gold);
+}
+.colorSwatches1,
+.colorSwatches2,
+.colorSwatches3 {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  border-radius: 50%;
+}
+.colorSwatches2 {
+  background-color: var(--color-darkorange);
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.colorSwatches3 {
+  background-color: var(--color-deepskyblue);
+}
+.colorSwatches3,
+.colorSwatches4,
+.colorSwatches5 {
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.colorSwatches4 {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-blueviolet);
+}
+.colorSwatches5 {
+  background-color: var(--color-deeppink);
+}
+.colorSwatches5,
+.colorSwatches6,
+.colorSwatches7 {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  border-radius: 50%;
+}
+.colorSwatches6 {
+  background-color: var(--color-white);
+  border: 0 solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.colorSwatches7 {
+  background-color: var(--color-black);
+}
+.colorFilter,
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px 13.5px;
+}
+.colorFilter {
+  height: 137px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.size {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.sizeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.xxSmall {
+  position: relative;
+}
+.xxSmallWrapper {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi);
+}
+.large,
+.medium,
+.small,
+.xSmall {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+}
+.large,
+.medium,
+.small {
+  min-width: 35px;
+}
+.large,
+.medium {
+  min-width: 51px;
+}
+.large {
+  font-weight: 500;
+  min-width: 37px;
+}
+.largeWrapper {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-lgi);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.xLarge,
+.xLarge1,
+.xxLarge {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+}
+.xLarge1,
+.xxLarge {
+  min-width: 59px;
+}
+.xLarge1 {
+  min-width: 58px;
+}
+.frameParent6,
+.frameParent7 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent7 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-25xl) 0 0;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+.frameParent6 {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.dressStyle,
+.gym,
+.party {
+  position: relative;
+  display: inline-block;
+}
+.dressStyle {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 104px;
+}
+.gym,
+.party {
+  min-width: 37px;
+}
+.gym {
+  min-width: 34px;
+}
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.applyFilter {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.applyFilterWrapper,
+.frameGroup,
+.homeLinkParentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.applyFilterWrapper {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-mini-5) var(--padding-68xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.frameGroup,
+.homeLinkParentParent {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-gray-500);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-4xl) var(--padding-8xl);
+  gap: var(--gap-4xl-6);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.homeLinkParentParent {
+  width: 295px;
+  gap: var(--gap-5xl);
+}
+.casual2 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 102px;
+}
+.productItemsChild {
+  width: 295px;
+  height: 298px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.gradientGraphicTShirt {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.filledStarsIcon,
+.starIcon {
+  height: 18.5px;
+  width: 18.5px;
+  position: relative;
+}
+.starIcon {
+  height: 16.7px;
+  width: 8.8px;
+}
+.filledStarsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+  flex-shrink: 0;
+}
+.span {
+  color: var(--color-gray-600);
+}
+.emptyRating {
+  position: relative;
+  display: inline-block;
+  min-width: 34px;
+  flex-shrink: 0;
+}
+.ratingStars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.emptyPrice {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  min-width: 55px;
+}
+.productDetails,
+.productRating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.productRating {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-open-sans);
+}
+.productDetails {
+  width: 227px;
+  height: 114px;
+  padding: 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.image8Icon {
+  position: absolute;
+  width: calc(100% - 27px);
+  top: -51px;
+  right: 13px;
+  left: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 402px;
+  object-fit: cover;
+}
+.imageContainer {
+  height: 298px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+}
+.imageContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.kinny {
+  text-transform: lowercase;
+}
+.skinnyFitJeansContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.priceRange,
+.priceRange1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.priceRange1 {
+  text-decoration: line-through;
+  color: var(--color-gray-400);
+}
+.discountedValue {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 32px;
+}
+.salePrice {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-tomato-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-smi);
+}
+.jeansSalePrice,
+.priceRangeParent,
+.salePrice {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jeansSalePrice {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-tomato-100);
+}
+.priceRangeParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.jeansRatingParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-open-sans);
+}
+.jeansRatingParent,
+.productDetails1,
+.skinnyFitJeansParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skinnyFitJeansParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.productDetails1 {
+  width: 202px;
+  height: 114px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.div3 {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+  flex-shrink: 0;
+}
+.productPriceRange,
+.productPriceRange1 {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 54px;
+}
+.productPriceRange1 {
+  text-decoration: line-through;
+  color: var(--color-gray-400);
+  min-width: 57px;
+}
+.productItems,
+.rating,
+.verticalStripedShirtParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rating {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.productItems,
+.verticalStripedShirtParent {
+  flex-direction: column;
+}
+.verticalStripedShirtParent {
+  width: 194px;
+  height: 94px;
+  gap: var(--gap-5xs);
+}
+.productItems {
+  gap: var(--gap-base);
+}
+.showing110Of {
+  align-self: stretch;
+  position: relative;
+}
+.productShowingCount {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 136px;
+}
+.mostPopular {
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+}
+.sortDropdown {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.sortIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.productSorting {
+  width: 175px;
+  gap: var(--gap-9xs);
+}
+.productCountInfo,
+.productSorting,
+.starsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productCountInfo {
+  width: 396px;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.starsParent {
+  gap: var(--gap-7xs-3);
+}
+.priceDetails {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  min-width: 57px;
+}
+.productContainer,
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productInfo {
+  width: 231px;
+  height: 94px;
+  gap: var(--gap-5xs);
+}
+.productContainer {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 192px;
+}
+.newPrice,
+.oldPrice {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 56px;
+}
+.newPrice {
+  text-decoration: line-through;
+  color: var(--color-gray-400);
+}
+.offerPrice {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 33px;
+}
+.offerPriceWrapper {
+  border-radius: var(--br-43xl);
+  background-color: var(--color-tomato-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-smi);
+}
+.blackStripedTShirtParent,
+.offerPriceWrapper,
+.oldPriceParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.oldPriceParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.blackStripedTShirtParent {
+  height: 94px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.productCountInfoParent,
+.productRow1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.productCountInfoParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+.itemsContainer1,
+.productStars1,
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.starContainer {
+  flex: 1;
+  gap: var(--gap-7xs-3);
+}
+.itemsContainer1,
+.productStars1 {
+  gap: var(--gap-smi);
+}
+.productStars1 {
+  align-self: stretch;
+}
+.itemsContainer1 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-open-sans);
+}
+.discountedAmount,
+.originalPriceValue {
+  position: relative;
+  display: inline-block;
+  min-width: 56px;
+}
+.originalPriceValue {
+  text-decoration: line-through;
+  color: var(--color-gray-400);
+  min-width: 57px;
+}
+.discountedAmountParent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+}
+.discountedAmountParent,
+.productGrid,
+.productRow3,
+.sleeveStripedTShirtParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sleeveStripedTShirtParent {
+  width: 199px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.productGrid,
+.productRow3 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.productGrid {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.productRow3 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div6 {
+  position: relative;
+  display: inline-block;
+  min-width: 36px;
+}
+.productInfo1 {
+  width: 226px;
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.b {
+  width: 48px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+}
+.looseFitBermudaShortsParent,
+.productsInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.looseFitBermudaShortsParent {
+  width: 239px;
+  height: 94px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.productsInfo {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.frameParent10,
+.productRow {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent10 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+  min-width: 397px;
+}
+.productRow {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-lgi);
+}
+.cardContent,
+.previousButtonContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previousButtonContainer {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.cardContent {
+  flex-direction: row;
+  gap: var(--gap-11xs);
+  text-align: center;
+  color: var(--color-gray-300);
+}
+.text {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.arrowRightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonBase {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-500);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+  gap: var(--gap-5xs);
+}
+.button,
+.paginationControls {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  border-radius: var(--br-5xs);
+  height: 36px;
+  justify-content: flex-start;
+}
+.paginationControls {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.pageNumberContainer,
+.productRowParent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.pageNumberContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+}
+.productRowParent {
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper2,
+.pagination,
+.productRowParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-27xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 315px);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.frameParent,
+.pagination {
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.pagination {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1250px) {
+  .frameGroup {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameWrapper2 {
+    padding-top: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .homeLinkParentParent {
+    display: none;
+  }
+  .productItems {
+    flex: 1;
+  }
+  .productRow {
+    flex-wrap: wrap;
+  }
+  .frameWrapper2 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .casual2 {
+    font-size: var(--font-size-7xl);
+  }
+  .productGrid,
+  .productRow1,
+  .productsInfo {
+    flex-wrap: wrap;
+  }
+  .frameParent10 {
+    gap: var(--gap-lg);
+    min-width: 100%;
+  }
+  .paginationControls {
+    flex-wrap: wrap;
+  }
+  .frameWrapper2 {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .colors,
+  .dressStyle,
+  .filters,
+  .price,
+  .size {
+    font-size: var(--font-size-base);
+  }
+  .casual2 {
+    font-size: var(--font-size-lgi);
+  }
+  .gradientGraphicTShirt {
+    font-size: var(--font-size-base);
+  }
+  .emptyPrice {
+    font-size: var(--font-size-lgi);
+  }
+  .skinnyFitJeansContainer {
+    font-size: var(--font-size-base);
+  }
+  .priceRange,
+  .priceRange1,
+  .productPriceRange,
+  .productPriceRange1 {
+    font-size: var(--font-size-lgi);
+  }
+  .productCountInfo {
+    flex-wrap: wrap;
+  }
+  .b,
+  .discountedAmount,
+  .newPrice,
+  .oldPrice,
+  .originalPriceValue,
+  .priceDetails {
+    font-size: var(--font-size-lgi);
+  }
+  .productRowParent {
+    gap: var(--gap-base);
+  }
+}
